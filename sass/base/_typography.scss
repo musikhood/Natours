@@ -41,6 +41,7 @@ body {
   display: inline-block;
   color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 
