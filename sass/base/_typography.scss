@@ -18,6 +18,7 @@ body {
     font-weight: 400;
     letter-spacing: 3.5rem;
     animation: moveInLeft 1s ease-out;
+    transform: translateX(1rem);
   }
 
   &--sub {
