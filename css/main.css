@@ -1021,7 +1021,7 @@ body {
 
 @media (max-width: 37.5em) {
   .popup__right {
-    padding: 2rem 3rem;
+    padding: 5rem 3rem 3rem;
   }
 }
 
@@ -1108,6 +1108,19 @@ body {
   line-height: 1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+@media (max-width: 112em) {
+  .popup__close:link, .popup__close:visited {
+    color: #000;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .popup__close:link, .popup__close:visited {
+    top: 2rem;
+    right: 2rem;
+  }
 }
 
 .popup__close:hover {

@@ -47,7 +47,7 @@
       width: 100%;
     }
     @include respond(phone) {
-      padding: 2rem 3rem;
+      padding: 5rem 3rem 3rem;
     }
   }
   &__img {
@@ -111,6 +111,13 @@
       display: inline-block;
       line-height: 1;
       transition: 0.3s;
+      @include respond(desktop) {
+        color: $color-black;
+      }
+      @include respond(phone) {
+        top: 2rem;
+        right: 2rem;
+      }
     }
     &:hover {
       color: $color-primary;
