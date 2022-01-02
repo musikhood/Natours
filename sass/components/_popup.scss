@@ -50,7 +50,6 @@
     padding: 3rem 5rem;
     @include respond(desktop) {
       display: block;
-      vertical-align: none;
       width: 100%;
     }
     @include respond(phone) {
