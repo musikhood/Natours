@@ -1,4 +1,4 @@
-# Calculator App
+# Natours Landing Page
 
 <img src="./giphy (9).gif" alt="gif"/>
 
